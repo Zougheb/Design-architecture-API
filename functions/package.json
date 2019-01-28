@@ -1,0 +1,39 @@
+{
+  "name": "design-architecture-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zougheb/design-architecture-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zougheb/design-architecture-API/issues"
+  },
+  "homepage": "https://github.com/Zougheb/design-architecture-API#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "ejs": "^2.6.1",
+    "eslint": "^5.12.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "express": "^4.16.4",
+    "firebase-admin": "^6.5.1",
+    "firebase-functions": "^2.1.0",
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0"
+  }
+}
